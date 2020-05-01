@@ -1,0 +1,7 @@
+.wrapper {
+  min-height: 100%;
+  margin:0;
+  padding-bottom: 100px;
+  background-image: url('../../subtle-background.png');
+  background-size:cover;
+}
