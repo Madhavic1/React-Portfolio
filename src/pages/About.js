@@ -3,7 +3,7 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 import Image from "../components/Image";
-//import ProfilePic from "../madhavi.png"
+import ProfilePic from "../madhavi.png"
 import Title from "../components/Title";
 import AboutText from "../components/AboutText";
 
@@ -14,7 +14,7 @@ function About() {
         <Row>
           <Col size="md-12">
             <Title title="About Me" />
-            <Image profilepic="/images/madhavi.png" width="200" />
+            <Image profilepic={ProfilePic} width="200" />
             <AboutText />
           </Col>
         </Row>
