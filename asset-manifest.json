@@ -1,22 +1,35 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.a7b6a530.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.d074bf8d.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.d074bf8d.chunk.js.map",
+    "main.css": "/React-Portfolio/static/css/main.81ccc2c3.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.1438ccb2.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.1438ccb2.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.5310dbb8.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.5310dbb8.js.map",
-    "static/js/2.5c338bb0.chunk.js": "/React-Portfolio/static/js/2.5c338bb0.chunk.js",
-    "static/js/2.5c338bb0.chunk.js.map": "/React-Portfolio/static/js/2.5c338bb0.chunk.js.map",
+    "static/js/2.baca16e9.chunk.js": "/React-Portfolio/static/js/2.baca16e9.chunk.js",
+    "static/js/2.baca16e9.chunk.js.map": "/React-Portfolio/static/js/2.baca16e9.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
-    "precache-manifest.82a23cfe14164c6e0436696083a1b507.js": "/React-Portfolio/precache-manifest.82a23cfe14164c6e0436696083a1b507.js",
+    "precache-manifest.170852788d75830af34f209f48d95937.js": "/React-Portfolio/precache-manifest.170852788d75830af34f209f48d95937.js",
     "service-worker.js": "/React-Portfolio/service-worker.js",
-    "static/css/main.a7b6a530.chunk.css.map": "/React-Portfolio/static/css/main.a7b6a530.chunk.css.map",
-    "static/js/2.5c338bb0.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.5c338bb0.chunk.js.LICENSE.txt"
+    "static/css/main.81ccc2c3.chunk.css.map": "/React-Portfolio/static/css/main.81ccc2c3.chunk.css.map",
+    "static/js/2.baca16e9.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.baca16e9.chunk.js.LICENSE.txt",
+    "static/media/Coding-quiz.png": "/React-Portfolio/static/media/Coding-quiz.c87380d8.png",
+    "static/media/Directory.png": "/React-Portfolio/static/media/Directory.195fda96.png",
+    "static/media/Find-my-doctor.png": "/React-Portfolio/static/media/Find-my-doctor.3949a02f.png",
+    "static/media/code_quiz.png": "/React-Portfolio/static/media/code_quiz.4efe851f.png",
+    "static/media/developer.png": "/React-Portfolio/static/media/developer.9c7af5b5.png",
+    "static/media/devhire.png": "/React-Portfolio/static/media/devhire.69c9bb6b.png",
+    "static/media/empDirectory.png": "/React-Portfolio/static/media/empDirectory.61fefc12.png",
+    "static/media/find_doctor.png": "/React-Portfolio/static/media/find_doctor.1c3b565e.png",
+    "static/media/madhavi.png": "/React-Portfolio/static/media/madhavi.8cfa88ae.png",
+    "static/media/noteTakerscreenshot.png": "/React-Portfolio/static/media/noteTakerscreenshot.d222123d.png",
+    "static/media/real_weather2.png": "/React-Portfolio/static/media/real_weather2.d51a7432.png",
+    "static/media/style.css": "/React-Portfolio/static/media/subtle-background.d7ebc311.png",
+    "static/media/weatherdashboard.png": "/React-Portfolio/static/media/weatherdashboard.dab993b8.png"
   },
   "entrypoints": [
     "static/js/runtime-main.5310dbb8.js",
-    "static/js/2.5c338bb0.chunk.js",
-    "static/css/main.a7b6a530.chunk.css",
-    "static/js/main.d074bf8d.chunk.js"
+    "static/js/2.baca16e9.chunk.js",
+    "static/css/main.81ccc2c3.chunk.css",
+    "static/js/main.1438ccb2.chunk.js"
   ]
 }
