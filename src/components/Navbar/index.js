@@ -17,19 +17,18 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-secondary p-0">
       {!isHomepage &&
-        <Link className="navbar-brand ml-2 text-white" to="/"
+        <Link className="navbar-brand ml-2 text-white" to="/React-Portfolio"
           onClick={() => setIsHomepage(true)}
-        >
-          Madhavi Mullapudi
-        </Link>}
+        >Madhavi Mullapudi</Link>
+         }
 
       <div className="ml-auto">
         <ul className="navbar-nav">
           <li className="nav-item">
             <Link
-              to="/"
+              to="/React-Portfolio"
               className={
-                window.location.pathname === "/" ? "nav-link active" : "nav-link"
+                window.location.pathname === "/React-Portfolio" ? "nav-link active" : "nav-link"
               }
               onClick={() => setIsHomepage(true)}
               style={styles.textColor}
