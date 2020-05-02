@@ -2,11 +2,17 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
 
+const styles = {
+  textColor: {
+   color : "white"
+  }
+}
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 class Navbar extends React.Component {
 state = {
   home: true
 }
+
  linkClick = () => {
     
     this.setState({home : false});
@@ -14,9 +20,9 @@ state = {
   }
   render() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-light bg-secondary p-0 m-0">
+      <nav className="navbar navbar-expand-lg navbar-light bg-secondary p-0">
         {!this.state.home && 
-        <Link className="navbar-brand" to="/" onClick={ () => this.setState({home: true})}>
+        <Link className="navbar-brand ml-2 text-white" to="/" onClick={ () => this.setState({home: true})}>
           Madhavi Mullapudi
       </Link>}
         <div className="ml-auto">
@@ -28,6 +34,7 @@ state = {
                   window.location.pathname === "/" ? "nav-link active" : "nav-link"
                 }
                 onClick={ () => this.setState({home: true})}
+                style={styles.textColor}
               >
                 Home
             </Link>
@@ -40,6 +47,7 @@ state = {
                   ? "nav-link active"
                   : "nav-link"
                 }
+                style={styles.textColor}
               >
                 About
             </Link>
@@ -49,6 +57,7 @@ state = {
                 to="/portfolio"
                 onClick={this.linkClick}
                 className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
+                style={styles.textColor}
               >
                 Portfolio
             </Link>
@@ -58,6 +67,7 @@ state = {
                 to="/contact"
                 onClick={this.linkClick}
                 className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
+                style={styles.textColor}
               >
                 Contact
             </Link>

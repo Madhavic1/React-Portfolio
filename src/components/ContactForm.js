@@ -2,6 +2,8 @@ import React from 'react'
 
 function ContactForm() {
     return (
+      <div>
+        <h5 className="text-warning pl-3 mt-3">Email Me</h5>
         <form id="contactform" action="//formspree.io/madhavi.0108@gmail.com" method="POST" className="ml-0" >
         <div className="col-sm-7 slideanim">
           <div className="row">
@@ -15,13 +17,14 @@ function ContactForm() {
           <textarea className="form-control" id="comments" name="message" placeholder="Message" rows="5"></textarea><br/>
           <div className="row">
             <div className="col-sm-12 form-group">
-              <button className="btn btn-warning pull-right" type="submit">Send Email</button>
+              <button className="btn btn-warning " type="submit">Send Email</button>
             </div>
           </div>
         </div>
         <input type="hidden" name="_next" value="//peek.solutions/confirmation.html" />
         <input type="text" name="_gotcha" style={{display:"none"}} />   
         </form>
+        </div>
     )
 }
 

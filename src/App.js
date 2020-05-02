@@ -11,7 +11,7 @@ import Wrapper from "./components/Wrapper";
 function App() {
   return (
     <Router>
-      <div>
+      <div className="bg-secondary">
         <Navbar />
         <Wrapper>
           <Route exact path="/" component={Home} />
