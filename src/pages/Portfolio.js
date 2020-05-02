@@ -41,7 +41,7 @@ function Portfolio() {
                         <br />
                         <Row >
                         <Col size="md-4">
-                            <Project image={CodeQuiz} title="Code Quiz" liveUrl="https://madhavic1.github.io/CodeQuiz/" gitHub="https://github.com/Madhavic1/" screenshot={CodeQuizScreenShot}/>
+                            <Project image={CodeQuiz} title="Code Quiz" liveUrl="https://madhavic1.github.io/CodeQuiz/" gitHub="https://github.com/Madhavic1/CodeQuiz.git" screenshot={CodeQuizScreenShot}/>
                             </Col>
                         <Col size="md-4">
                                 <Project image={WeatherDashboard} title="Weather Dashboard" liveUrl="https://madhavic1.github.io/Weather-Dashboard/" gitHub="https://github.com/Madhavic1/Weather-Dashboard.git" screenshot={WeatherDashboardScreenShot}/>
