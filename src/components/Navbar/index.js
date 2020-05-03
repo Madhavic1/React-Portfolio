@@ -17,21 +17,18 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-secondary p-0">
       {!isHomepage &&
-        <Link className="navbar-brand ml-2 text-white" to="/React-Portfolio"
+        <Link className="navbar-brand ml-2 text-white" to="/"
           onClick={() => setIsHomepage(true)}
         >Madhavi Mullapudi</Link>
          }
-          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenavbar" aria-controls="collapsenavbar" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
 
-      <div className="collapse navbar-collapse ml-auto" id="collapsenavbar">
+      <div className="ml-auto">
         <ul className="navbar-nav">
           <li className="nav-item">
             <Link
-              to="/React-Portfolio"
+              to="/"
               className={
-                window.location.pathname === "/React-Portfolio" ? "nav-link active" : "nav-link"
+                window.location.pathname === "/" ? "nav-link active" : "nav-link"
               }
               onClick={() => setIsHomepage(true)}
               style={styles.textColor}
