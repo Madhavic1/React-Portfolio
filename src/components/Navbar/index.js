@@ -21,8 +21,11 @@ function Navbar() {
           onClick={() => setIsHomepage(true)}
         >Madhavi Mullapudi</Link>
          }
+          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenavbar" aria-controls="collapsenavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
 
-      <div className="ml-auto">
+      <div className="collapse navbar-collapse ml-auto" id="collapsenavbar">
         <ul className="navbar-nav">
           <li className="nav-item">
             <Link
